@@ -1,0 +1,7 @@
+# Drupal things
+vendor
+web
+node_modules
+
+# IDEs
+.idea
