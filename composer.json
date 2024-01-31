@@ -40,12 +40,18 @@
         "sort-packages": true
     },
     "extra": {
+        "drainpipe": {
+            "tugboat": {}
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
             },
             "gitignore": "true",
-            "allowed-packages": ["lullabot/drainpipe", "lullabot/drainpipe-dev"]
+            "allowed-packages": [
+                "lullabot/drainpipe",
+                "lullabot/drainpipe-dev"
+            ]
         },
         "installer-paths": {
             "web/core": [
